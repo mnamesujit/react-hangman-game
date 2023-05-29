@@ -1,10 +1,15 @@
 
 import './App.css'
+import HangmanImg from './components/HangmanImg'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
-      <h1>Hangman Game</h1>
+      <Header />
+      <div className="hangman-img">
+        <HangmanImg />
+      </div>
     </>
   )
 }
